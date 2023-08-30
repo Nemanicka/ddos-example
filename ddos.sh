@@ -51,5 +51,5 @@ fi
 #Ping of death
 if [[ $1 == "slowloris" ]]; then
 echo "slowloris enabled"
-    python3 ./slowloris/slowloris.py 127.0.0.1 -s 100000
+    python3 ./slowloris/slowloris.py 127.0.0.1 -s 500 -v
 fi
